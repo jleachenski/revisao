@@ -36,4 +36,5 @@ Ferramenta de software para versionamento/controle de versões de um projeto qua
 
 `git branch -d <nome-do-galho>`: Remove um galho do repositório em que o usuário está trabalhando.
 
+`git push -u origin <nome-do-galho>`: Manda/envia as alterações do local para a hospedagem/repo/repositório remota.
 
