@@ -24,7 +24,7 @@ Ferramenta de software para versionamento/controle de versões de um projeto qua
 
 `git add <nome-do-arquivo>`: Seleciona os arquivos que vão ser salvos no próximo commit.
 
-`git commit -m "<mensagem-do-commit>"`: É a forma de salvar as alterações feitas no repositório/branch (local) onde o usuário está trabalhando (modificando arquivos), o git commit apenas salva as alterações selecionadas pelo commando git add
+`git commit -m "<mensagem-do-commit>"`: É a forma de salvar as alterações feitas no repositório/branch (local) onde o usuário está trabalhando (modificando arquivos), o git commit apnas salva as alterações selecionadas pelo commando git add
 
 `git status`: Mostra para o usuário o estado atual (as mudanças feitas/selecionadas) do galho onde o usuário está trabalhando
 
@@ -37,4 +37,9 @@ Ferramenta de software para versionamento/controle de versões de um projeto qua
 `git branch -d <nome-do-galho>`: Remove um galho do repositório em que o usuário está trabalhando.
 
 `git push -u origin <nome-do-galho>`: Manda/envia as alterações do local para a hospedagem/repo/repositório remota.
+
+`git pull origin <nome-do-galho>`:  Faz o download das alterações do galho indicado no comando, as alterações baixadas são realizadas/inseridas no galho atual do usuário
+
+`git init`: Cria um repositório local (repo inicial denominado master, não é igual ao Github que cria como main)
+
 
