@@ -28,4 +28,12 @@ Ferramenta de software para versionamento/controle de versões de um projeto qua
 
 `git status`: Mostra para o usuário o estado atual (as mudanças feitas/selecionadas) do galho onde o usuário está trabalhando
 
+`git branch <nome-do-galho>`: Cria um novo ramo/galho/branch de desenvolvimento no repositório atual
+
+`git branch`: Lista os galhos do repositório, e também mostra em qual galho você está.
+
+`git checkout <nome-do-galho>`: Para mudar de galho atual (ir para outro galho de desenvolvimento).
+
+`git branch -d <nome-do-galho>`: Remove um galho do repositório em que o usuário está trabalhando.
+
 
