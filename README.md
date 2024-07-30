@@ -22,9 +22,10 @@ Ferramenta de software para versionamento/controle de versões de um projeto qua
 
 `git clone <url-do-repositorio-remoto>`:  Clone/Cópia de um repositório remoto (nesse curso, no Github) e cria uma pasta no local (inicializando um repositório local com o git)
 
-`git add`: Seleciona os arquivos que vão ser salvos no próximo commit.
+`git add <nome-do-arquivo>`: Seleciona os arquivos que vão ser salvos no próximo commit.
 
-`git commit`: É a forma de salvar as alterações feitas no repositório/branch (local) onde o usuário está trabalhando (modificando arquivos)
+`git commit -m "<mensagem-do-commit>"`: É a forma de salvar as alterações feitas no repositório/branch (local) onde o usuário está trabalhando (modificando arquivos), o git commit apenas salva as alterações selecionadas pelo commando git add
 
+`git status`: Mostra para o usuário o estado atual (as mudanças feitas/selecionadas) do galho onde o usuário está trabalhando
 
 
