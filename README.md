@@ -42,4 +42,6 @@ Ferramenta de software para versionamento/controle de versões de um projeto qua
 
 `git init`: Cria um repositório local (repo inicial denominado master, não é igual ao Github que cria como main)
 
+`git merge <nome-do-galho>`: "Junta"/merge as alterações do galho indicado no galho atual
+
 
