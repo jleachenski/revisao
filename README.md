@@ -1,3 +1,5 @@
+# GIT/GITHUB
+
 # Repositorio
 
 A pasta do projeto imbuida com o software git, que contem os arquivos e o histórico de alteração do projeto.
@@ -44,7 +46,9 @@ pull
 
 Ele é um pedido de merge dentro do repositório remoto (Github), se caso esse pedido de merge for aceito, resultará no merge dos galhos envolvidos.
 
-#### FUNÇÕES/MÉTODOS/PROCEDIMENTOS #####
+# FUNÇÕES/MÉTODOS/PROCEDIMENTOS
+
+Uma função evita a repetição de código, pois sempre que aquele código é necessário, ele pode ser invocado/chamado a partir da função. Deixa também o código mais organizado e significativo.
 
 Um bloco de código nomeado, que pode ou não conter parâmetros/argumentos e pode ou não conter um retorno.
 
@@ -56,4 +60,35 @@ Um bloco de código nomeado, que pode ou não conter parâmetros/argumentos e po
 
 É o resultado (valor) que função retorna para quem a invocou
 
+# function declaration
+
+f1() // invoco a função antes de declará-la / funciona
+
+function f1(<os parametros vem aqui>) { // sofre hosting - sofre o elevamento
+    //qualquer código
+    return // o retorno sempre é opcional e pode ser de qualquer tipo
+}
+
+# function expression
+
+f2() // vai quebrar o código, acessando uma variável antes de defini-la
+
+// função anonima
+const f2 = function(<os parametros vem aqui>) { 
+    //qualquer código
+    return // o retorno sempre é opcional e pode ser de qualquer tipo
+}
+
+f3()
+
+// arrow/lambda function
+const f3 = (<os parametros vem aqui>) => {
+     //qualquer código
+    return // o retorno sempre é opcional e pode ser de qualquer tipo
+}
+
+// se apenas houver um parametro, pode-se remover os parenteses
+// também se houver apenas uma linha de código, pode-se remover a declaração do bloco
+
+const f4 = arg => console.log(arg)
 
