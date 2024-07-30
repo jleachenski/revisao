@@ -1,7 +1,3 @@
-# revisao
-revisão para
-
-
 # Repositorio
 
 A pasta do projeto imbuida com o software git, que contem os arquivos e o histórico de alteração do projeto.
@@ -29,7 +25,7 @@ Ferramenta de software para versionamento/controle de versões de um projeto qua
 `git status`: Mostra para o usuário o estado atual (as mudanças feitas/selecionadas) do galho onde o usuário está trabalhando
 
 `git branch <nome-do-galho>`: Cria um novo ramo/galho/branch de desenvolvimento no repositório atual
-
+pull
 `git branch`: Lista os galhos do repositório, e também mostra em qual galho você está.
 
 `git checkout <nome-do-galho>`: Para mudar de galho atual (ir para outro galho de desenvolvimento).
@@ -43,5 +39,21 @@ Ferramenta de software para versionamento/controle de versões de um projeto qua
 `git init`: Cria um repositório local (repo inicial denominado master, não é igual ao Github que cria como main)
 
 `git merge <nome-do-galho>`: "Junta"/merge as alterações do galho indicado no galho atual
+
+# Pull Request
+
+Ele é um pedido de merge dentro do repositório remoto (Github), se caso esse pedido de merge for aceito, resultará no merge dos galhos envolvidos.
+
+#### FUNÇÕES/MÉTODOS/PROCEDIMENTOS #####
+
+Um bloco de código nomeado, que pode ou não conter parâmetros/argumentos e pode ou não conter um retorno.
+
+# Parâmetro
+
+É a variável que quem invoca a função dispoẽ para ela, o parâmetro/argumento modifica o comportamento da função.
+
+# Retorno
+
+É o resultado (valor) que função retorna para quem a invocou
 
 
